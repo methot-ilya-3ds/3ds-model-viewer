@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+   <head>
+      <title>SIMULIA > Marketing Home (internal)</title>
+      <meta name="viewport" content="width=device-width, user-scalable=no,
+         minimum-scale=1.0, maximum-scale=1.0">
+      <link type="text/css" href="styles/examples.css" rel="stylesheet" />
+   </head>
+   <body bgcolor="#ffffff" topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 link="#cc0000">
+      <!-- Import the component -->
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+      <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+      <!-- Use it like any other HTML element -->
+      <!-- Import the component -->
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+      <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+      <!-- Use it like any other HTML element -->
+       
+      <div class="sample" >
+      <div id="demo-container-1" class="demo">
+      <object id= "iframe" class="iframe" data="http://inet/groups/pd/InnovationLab/car_crash/index.html"></object>
+          
+      <div class="presetPanel presetPanelRight" style="display: block; width: 110px;">
+         <button onclick="Start_Car_Crash()" class="presetContainer" onclick="" id="car_1" style="width: 80px; height: 80px; margin-top: 5px; margin-bottom: 5px;"><img src="http://inet/groups/pd/InnovationLab/images/car_1.png" class="presetImage" alt="Wood - Blue" title="Bleu Car" style="width: 80px; height: 80px;"></button>
+          
+         <button onclick= "Start_Isosurface_Animation()" class="presetContainer" id="car_2" style="width: 80px; height: 80px; margin-top: 5px; margin-bottom: 5px;"><img src="http://inet/groups/pd/InnovationLab/images/car_2.png" class="presetImage" alt="Wood - Black" title="Car Crash" style="width: 80px; height: 80px;"></button>
+           <button class="presetContainer" id="car_3" style="width: 80px; height: 80px; margin-top: 5px; margin-bottom: 5px;"><img src="http://inet/groups/pd/InnovationLab/images/car_3.png" class="presetImage" alt="Wood - Black" title="Car Crash" style="width: 80px; height: 80px;"></button>
+      </div>
+          
+          <div class="infopanel" style="display: block;"> 
+              
+                <p>In order to drive innovation we must first put ourselves in the digital passenger seat<br /> <br /> The following simulations demonstrate a variety of possibilities for Simulia Simulations including...<br /> <br /> <br /> Example 1:<br /> <br /> <br /> Exmaple 2:<br /> <br /> <br /> Example 3:<br /> <br /> <br /> Click the left icons to experience each simulation in more detail.</p>
+          
+          </div>
+          
+          <script >
+
+               
+               function Start_Car_Crash() {
+                   
+               
+               if(document.getElementById("iframe").data != "http://inet/groups/pd/InnovationLab/car_crash/car_crash.html") {
+                   
+                   document.getElementById("iframe").data = "http://inet/groups/pd/InnovationLab/car_crash/car_crash.html";
+               }
+               }
+                   
+            
+            function Start_Isosurface_Animation() {
+                   
+                
+               
+               if(document.getElementById("iframe").data != "http://inet/groups/pd/InnovationLab/car_crash/isosurface_animation.html") {
+                   
+                   document.getElementById("iframe").data = "http://inet/groups/pd/InnovationLab/car_crash/isosurface_animation.html";
+               }
+            }
+  
+           </script>
+          </div>
+       </div>
+       <a href="https://www.clipart.email/">clipart.email</a>   
+   </body>
+</html>

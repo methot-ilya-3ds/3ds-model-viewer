@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+    
+<head>
+<title>SIMULIA > Marketing Home (internal)</title>
+    
+ <meta name="viewport" content="width=device-width, user-scalable=no,
+  minimum-scale=1.0, maximum-scale=1.0">
+<link type="text/css" href="styles/examples.css" rel="stylesheet" />
+    
+</head>
+<body bgcolor="#ffffff" topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 link="#cc0000">
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<div class="sample" >
+ <div id="demo-container-1" class="demo">  
+        <model-viewer id="car_crash" shadow-intensity="1" shadow-softness="1" preload autoplay skybox-image= "Images/darkMirror.hdr"  poster="Images/loading.gif" src="http://inet/groups/pd/InnovationLab/3D_Model_Html/Model/Test_Car_Animation_3_cars_decimated_no_anim_centered.glb" alt="An animate dcrash crash" auto-rotate camera-controls camera-target="0m 0m 0m">
+     <!--
+            <button onclick="Focus_Bleu()" slot="hotspot-0" class="hotspot" data-position="-2.6368229598314414m 1.3368108636846259m 1m" data-normal="-1.8288294076919556m 0.55424565076828m 1m">
+         <div class="annotation">The following crash simulation demonstrates how SIMULIA technology can be used to predict highly variable outcomes.</div>
+    </button>
+    -->
+     </model-viewer>
+     <script> 
+                function Focus_Bleu() {
+                    const modelViewer = document.querySelector('#car_crash');
+                    modelViewer.cameraTarget = "1m 1m 0m";
+                 
+                }
+            
+            </script>
+<!--
+</div>
+    
+    <div id= "demo-container-2" class="demo">
+    <model-viewer shadow-intensity="1" shadow-softness="1" preload autoplay skybox-image= "Images/darkMirror.hdr"  poster="Images/loading.gif" src="http://inet/groups/pd/InnovationLab/Models/test_plane_animation_02.glb" alt="A plane with animated turbulance" auto-rotate camera-controls>
+    
+    </div>
+-->
+
+</body>
+</html>
